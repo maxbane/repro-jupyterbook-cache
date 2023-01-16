@@ -1,5 +1,6 @@
 Reproducible example: jupyter-book fails when `execute_notebooks: "cache"`
-because of unknown extra `format-nongpl` for package `jsonschema`.
+because of unknown extra `format-nongpl` for package `jsonschema`:
+https://github.com/executablebooks/jupyter-book/issues/1907
 
 To reproduce, just run these commands (as of 2022-01-16), or run `repro.sh`,
 which does the same thing:
