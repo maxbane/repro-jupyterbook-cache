@@ -15,6 +15,7 @@ jupyter-book config sphinx docs/
 sphinx-build -vvvvvv -b html docs/ docs/_build/html
 ```
 
-I've include my `versions.txt` from the last time I ran these commands, so that
+I've included my `versions.txt` from the last time I ran these commands, so that
 you can diff against any version changes in the meantime.
 
+Also note that everything works if you change `execute_notebook` to `"force"`.
