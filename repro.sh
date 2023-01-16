@@ -2,6 +2,7 @@
 
 python3 -m venv --symlinks --upgrade-deps test-venv
 source test-venv/bin/activate
+pip cache purge
 pip install jupyter-book
 pip freeze > versions.txt
 jupyter-book config sphinx docs/
